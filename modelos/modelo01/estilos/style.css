@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*
+PALETA DE CORES:
+----------------
+verde: #49a09d
+lilás: #5f2c82
+---------------
+*/
+:root {
+  -cor01: #49a09d;
+  -cor02: #5f2c82;
+}
