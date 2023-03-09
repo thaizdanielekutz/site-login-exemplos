@@ -24,44 +24,33 @@
     float: right;
     width: 70%;
   }
+  div#formulario > p {
+    font-size: 0.9em;
+  }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
   body {
     background-image: linear-gradient(to top, var(--cor01), var(--cor02));
   }
   section#login {
-    width: 950px;
+    width: 992px;
   }
 
   section#login > div#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
   }
 
   section#login > div#formulario {
-    float: right;
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: linear-gradient(to top, var(--cor01), var(--cor02));
-  }
-  section#login {
-    width: 950px;
-  }
-
-  section#login > div#imagem {
     float: left;
     width: 50%;
-    height: 100%;
   }
-
-  section#login > div#formulario {
-    float: right;
-    width: 50%;
+  div#forulario > h1 {
+    font-size: 2em;
+  }
+  div#formulario > p {
+    font-size: 1em;
   }
 }
